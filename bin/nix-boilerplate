@@ -28,4 +28,5 @@ if [ -n $2 ]; then
 fi
 
 cp -rf "$templateDir/." .
+chmod -R +w .
 nix-shell --run "niv update"
