@@ -1,0 +1,32 @@
+#!/usr/bin/env bash
+scriptLocation="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+templatesDir="$scriptLocation/../templates"
+templateDir="$templatesDir/$1"
+targetDir=$2
+exitCode=0
+
+if [ ! -d "$templateDir" ]; then
+  exitCode=1
+
+  echo "Unknown template: $1"
+  echo ""
+fi
+
+if [ $# -eq 0 ] || [ $exitCode -eq 1 ]; then
+  cd $templatesDir
+  echo "Usage: nix-boilerplate TEMPLATE_NAME [TARGET]"
+  echo ""
+  echo "Available templates:"
+  ls -d */ | sed 's/.$//'
+  exit $exitCode
+fi
+
+if [ -n $2 ]; then
+  if [ ! -d "$2" ]; then
+    mkdir -p "$2"
+  fi
+  cd "$2"
+fi
+
+cp -rf "$templateDir/." .
+nix-shell --run "niv update"
