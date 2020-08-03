@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-scriptLocation="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
-templatesDir="$scriptLocation/../templates"
+templatesDir="STOREPATH/templates"
 templateDir="$templatesDir/$1"
 targetDir=$2
 exitCode=0
