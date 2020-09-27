@@ -17,10 +17,10 @@
         "homepage": null,
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "6d4b93323e7f78121f8d6db6c59f3889aa1dd931",
-        "sha256": "0g2j41cx2w2an5d9kkqvgmada7ssdxqz1zvjd7hi5vif8ag0v5la",
+        "rev": "72b9660dc18ba347f7cd41a9504fc181a6d87dc3",
+        "sha256": "1cqgpw263bz261bgz34j6hiawi4hi6smwp6981yz375fx0g6kmss",
         "type": "tarball",
-        "url": "https://github.com/NixOS/nixpkgs/archive/6d4b93323e7f78121f8d6db6c59f3889aa1dd931.tar.gz",
+        "url": "https://github.com/NixOS/nixpkgs/archive/72b9660dc18ba347f7cd41a9504fc181a6d87dc3.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "personal-nix-channel": {
@@ -29,10 +29,10 @@
         "homepage": null,
         "owner": "pietdevries94",
         "repo": "personal-nix-channel",
-        "rev": "12e1d9d9b4ee3fad93b31ca09ca4de1eaebe7128",
-        "sha256": "013kmzca870x093n1jh6jjfnidpd43d5pks804bvv2qfynjqpmq0",
+        "rev": "d33f8aba60ae81cbcabc9bbce45fc38e4884a3fb",
+        "sha256": "0g3i56yrhhlh43fmdd73g1g5025jv2arnx7bl35dg8wqnv6y4jkx",
         "type": "tarball",
-        "url": "https://github.com/pietdevries94/personal-nix-channel/archive/12e1d9d9b4ee3fad93b31ca09ca4de1eaebe7128.tar.gz",
+        "url": "https://github.com/pietdevries94/personal-nix-channel/archive/d33f8aba60ae81cbcabc9bbce45fc38e4884a3fb.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
