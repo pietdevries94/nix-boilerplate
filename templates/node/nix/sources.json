@@ -29,10 +29,10 @@
         "homepage": null,
         "owner": "pietdevries94",
         "repo": "personal-nix-channel",
-        "rev": "c01593ccf4ecb3daa6aeb376e2a00b6c5ac384db",
-        "sha256": "00sqr1jbp4ilaaryi3q9fi3ik5z32l9gsa5gdld06mqn09bsabww",
+        "rev": "f7ccfe583c7dac09dd9ef234db62984cd0f78d3e",
+        "sha256": "0v41y95nrm2avcqkyz30bzpla1i5dim4crgz76iqcrkfdb3hj97s",
         "type": "tarball",
-        "url": "https://github.com/pietdevries94/personal-nix-channel/archive/c01593ccf4ecb3daa6aeb376e2a00b6c5ac384db.tar.gz",
+        "url": "https://github.com/pietdevries94/personal-nix-channel/archive/f7ccfe583c7dac09dd9ef234db62984cd0f78d3e.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }
